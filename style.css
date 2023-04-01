@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 1.6rem;
+	font-family: sans-serif;
+  }
+  
+  html {
+	font-size: 62.5%;
+  }
+  
+  body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #333;
+  }
+  
+  /* /////////////////////////////////// */
+  
+  .eixo {
+	position: relative;
+	width: 200px;
+	height: 200px;
+  
+	transform-style: preserve-3d;
+	transform: rotateX(-50deg) rotateY(25deg) rotateZ(0deg);
+	animation: cubo 4s linear infinite;
+  }
+  
+  .cubo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  
+	transform-style: preserve-3d;
+  }
+  
+  .cara {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	color: white;
+	font-size: 10rem;
+  }
+  
+  #cara1 {
+	background-color: #0000ff;
+	transform: rotateY(0deg) translateZ(100px);
+  }
+  
+  #cara2 {
+	background-color: #ff0000;
+	transform: rotateY(90deg) translateZ(100px);
+  }
+  
+  #cara3 {
+	background-color: #008000;
+	transform: rotateY(180deg) translateZ(100px);
+  }
+  
+  #cara4 {
+	background-color: #800080;
+	transform: rotateY(270deg) translateZ(100px);
+  }
+  
+  #cara5 {
+	background-color: #ffff00;
+	transform: rotateX(90deg) translateZ(100px);
+  }
+  
+  #cara6 {
+	background-color: #00fa9a;
+	transform: rotateX(90deg) rotateY(180deg) translateZ(100px);
+  }
+  
+  
+  @keyframes cubo {
+	0% {
+	  transform: rotateX(20deg) rotateY(0deg);
+	}
+  
+	to {
+	  transform: rotateX(20deg) rotateY(360deg);
+	}
+  }
