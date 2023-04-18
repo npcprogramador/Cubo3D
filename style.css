@@ -54,32 +54,38 @@
   }
   
   #cara1 {
-	background-color: #0000ff;
+	/*background-color: #0000ff;*/
+	border: solid 3px #fff;
 	transform: rotateY(0deg) translateZ(100px);
   }
   
   #cara2 {
-	background-color: #ff0000;
+	/*background-color: #ff0000;*/
+	border: solid 3px #fff;
 	transform: rotateY(90deg) translateZ(100px);
   }
   
   #cara3 {
-	background-color: #008000;
+	/*background-color: #008000;*/
+	border: solid 3px #fff;
 	transform: rotateY(180deg) translateZ(100px);
   }
   
   #cara4 {
-	background-color: #800080;
+	/*background-color: #800080;*/
+	border: solid 3px #fff;
 	transform: rotateY(270deg) translateZ(100px);
   }
   
   #cara5 {
-	background-color: #ffff00;
+	/*background-color: #ffff00;*/
+	border: solid 3px #fff;
 	transform: rotateX(90deg) translateZ(100px);
   }
   
   #cara6 {
-	background-color: #00fa9a;
+	/*background-color: #00fa9a;*/
+	border: solid 3px #fff;
 	transform: rotateX(90deg) rotateY(180deg) translateZ(100px);
   }
   
