@@ -26,5 +26,3 @@ function control(val) {
             break;
     }
 }
-
-vertical = pixel
